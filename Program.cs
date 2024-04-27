@@ -114,6 +114,9 @@ app.UseCors(options =>
 //     options.WithMethods("GET", "POST");
 // });
 
+// Use Static Files
+app.UseStaticFiles();
+
 app.UseHttpsRedirection();
 
 // Add Authentication
